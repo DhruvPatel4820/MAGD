@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: brown;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+/* 
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 7rem;
+    background-color: rgb(218, 212, 212);
+}
+.f-info-socials,.f-info-links,.f-info-brand{
+   width: 100%;
+
+
+}
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+} */
+
+.f-info {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: rgb(218, 212, 212);
+}
+
+.f-info-socials i {
+    font-size: 1.5rem;
+    margin: 0 0.8rem;
+    color: #444;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.f-info-socials i:hover {
+    color: brown;
+    transform: scale(1.1);
+}
+
+.f-info-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+.f-info-brand {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .f-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .f-info-links {
+        flex-direction: column;
+    }
+
+    .f-info-socials {
+        margin-bottom: 0.5rem;
+    }
+}
+.listing-card{
+    border-style:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0 !important;
+}
+.listing_link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn{
+    background-color: brown !important;
+    border: none !important;
+}
+.show-img{
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+}
+.dis-btn{
+    display: flex !important;
+}
